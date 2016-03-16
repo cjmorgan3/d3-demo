@@ -1,0 +1,33 @@
+/* 575 boilerplate style.css */
+.container {
+	background-color: #FF883E;
+}
+
+.rectangle {
+	fill: #169B62;
+	x: 50;
+	y: 50;
+}
+
+.circles {
+	fill: #FFF;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.6em;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
